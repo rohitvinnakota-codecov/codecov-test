@@ -29,3 +29,7 @@ def test_divide():
     assert Calculator.divide(0, 2.0) == 0
     assert Calculator.divide(-4, 2.0) == -2.0
     # assert Calculator.divide(2.0, 0.0) == 'Cannot divide by 0'
+
+def test_add_fail():
+    assert Calculator.add(1, 2) == 4.0  # This will fail because the expected result should be 3.0
+
