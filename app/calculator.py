@@ -14,3 +14,8 @@ class Calculator:
         if y == 0:
             return 'Cannot divide by 0'
         return x * 1.0 / y
+
+    def divide(x, y):
+        if y == 0:
+            return 'Cannot divide by 0'
+        return x * 1.0 / y * 5
