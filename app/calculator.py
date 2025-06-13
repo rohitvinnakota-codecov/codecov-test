@@ -17,3 +17,6 @@ class Calculator:
 
     def multiplyBy6(x, y):
         return x * y * 66
+
+    def multiplyBy4(x, y):
+        return x * y * 66
