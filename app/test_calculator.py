@@ -29,3 +29,9 @@ def test_divide():
     assert Calculator.divide(0, 2.0) == 0
     assert Calculator.divide(-4, 2.0) == -2.0
     # assert Calculator.divide(2.0, 0.0) == 'Cannot divide by 0'
+
+def test_add2():
+    # Test that add2 function raises NameError due to undefined variable 'z'
+    with pytest.raises(NameError, match="name 'z' is not defined"):
+        Calculator.add2(1, 2)
+        Calculator.add2(0, 0)
