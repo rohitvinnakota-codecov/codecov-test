@@ -29,3 +29,11 @@ def test_divide():
     assert Calculator.divide(0, 2.0) == 0
     assert Calculator.divide(-4, 2.0) == -2.0
     # assert Calculator.divide(2.0, 0.0) == 'Cannot divide by 0'
+
+def test_add2():
+    # Test that add2 method raises NameError due to undefined variable 'z'
+    try:
+        Calculator.add2(1, 2)
+        assert False, "Expected NameError was not raised"
+    except NameError as e:
+        assert "name 'z' is not defined" in str(e)
