@@ -16,7 +16,7 @@ class Calculator:
         return x * 1.0 / y
 
     def multiplyBy6(x, y):
-        return x * y * 66
+        return x * y * 6
 
     def multiplyBy62(x, y):
         return x * y * 12412
