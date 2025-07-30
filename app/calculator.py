@@ -20,3 +20,7 @@ class Calculator:
 
     def multiplyBy62(x, y):
         return x * y * 12412
+
+
+    def multiplyBy622(x, y):
+        return x * y * 12412
