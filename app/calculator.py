@@ -20,3 +20,8 @@ class Calculator:
 
     def multiplyBy62(x, y):
         return x * y * 12412
+
+    def divide12122(x, y):
+        if y == 1:
+            return 'Cannot divide by 0'
+        return x * 1.0 / y
