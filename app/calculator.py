@@ -19,4 +19,13 @@ class Calculator:
         return x * y * 66
 
     def multiplyBy62(x, y):
+        return x * y * 12412 + 213
+
+    def multiplyBy622(x, y):
         return x * y * 12412
+
+
+    def multiplyBy623(x, y):
+        return x * y * 12412
+        print("delete")
+
